@@ -1,31 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+  <!-- Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+
+
   <title>Frontend Mentor | Launch countdown timer</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
 
-  We're launching soon
+  <div class="container">
 
-  Days
-  Hours
-  Minutes
-  Seconds
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <!-- Title -->
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+        We're launching soon
+      </div>
+    </div>
+
+    <!-- Timer -->
+    <div id="timer-container" class="container">
+      <div class="row">
+        <!-- DAYS -->
+        <div class="col d-flex justify-content-center">
+          <div class="counter">
+            <span id="days-counter"></span>
+          </div>
+          <span class="counter-text">Days</span>
+        </div>
+
+        <!-- HOURS -->
+        <div class="col d-flex justify-content-center">
+          <div class="counter">
+            <span id="hours-counter"></span>
+          </div>
+          <span class="counter-text">Hours</span>
+        </div>
+
+        <!-- MINUTES -->
+        <div class="col d-flex justify-content-center">
+          <div class="counter">
+            <span id="minutes-counter"></span>
+          </div>
+          <span class="counter-text">Minutes</span>
+        </div>
+
+        <!-- SECONDS -->
+        <div class="col d-flex justify-content-center">
+          <div class="counter">
+            <span id="seconds-counter"></span>
+          </div>
+          <span class="counter-text">Seconds</span>
+        </div>
+
+      </div>
+
+
+
+
+
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"></script>
+    <!-- jQuery Install -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Scripts -->
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
