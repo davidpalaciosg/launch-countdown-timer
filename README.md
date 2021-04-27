@@ -12,7 +12,6 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/davidpalaciosg/launch-countdown-timer)
-- Live Site URL: [Add live site URL here](https://davidpalaciosg.github.io/launch-countdown-timer/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/countdown-timer-built-with-html-css-jquery-and-bootstrap-hQ2MSO5nw)
+- Live Site URL: [GitHub Pages](https://davidpalaciosg.github.io/launch-countdown-timer/)
 
 ## My process
 
