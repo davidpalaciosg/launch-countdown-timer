@@ -2,3 +2,42 @@
 {
     max-width: 700px;
 }
+
+/* BODY */
+body{
+    background-color: #1E1E2A;
+    background-image: url("../images/bg-stars.svg");
+
+    font-family: 'Red Hat Text', sans-serif;
+    color: white;
+}
+/* TITLE */
+#launching{
+    font-size: 18px;
+    margin-top: 100px;
+    color: white;
+    text-transform: uppercase;
+   
+    letter-spacing: 6px;
+    margin-bottom: 90px;
+}
+/* COUNTERS */
+.counter{
+    width: 80px;
+    height: 80px;
+    background-color: #34364F;
+    border-radius: 10%;
+    color: hsl(345, 95%, 68%);
+    text-align: center;
+    padding-top: 1px;
+    font-size: 50px;
+    box-shadow: 0 0 10px #34364F;
+}
+
+.counter-text{
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: rgba(204, 192, 247, 0.63);
+}
