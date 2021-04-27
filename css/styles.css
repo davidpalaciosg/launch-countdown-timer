@@ -41,3 +41,18 @@ body{
     letter-spacing: 3px;
     color: rgba(204, 192, 247, 0.63);
 }
+
+
+/* FOOTER */
+#footer{
+    width: 750px;
+    height: 150px;
+    background-image: url("/images/pattern-hills.svg");
+    background-repeat: no-repeat;
+    margin-top: 150px;
+}
+.icon
+{
+    width: 25px;
+    margin: 50px 25px;
+}
